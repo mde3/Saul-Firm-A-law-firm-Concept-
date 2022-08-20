@@ -1,0 +1,176 @@
+/*=============== VARIABLES ===============*/
+:root{
+    --header-height: 3.5rem;
+    --black-clr: #232323;
+    --red-clr: #B13126;
+    --grey-clr: #C3C3D5;
+    --white-clr: #FBF8F3;
+
+    --body-font:'Montserrat', sans-serif;
+
+    --biggest-fs: 2.25rem;
+    --h1-fs: 1.5rem;
+    --h2-fs: 1.25rem;
+    --h3-fs: 1rem;
+    --normal-fs: .938rem;
+    --small-fs: .813rem;
+    --smaller-fs: .75rem;
+
+    --regular-fw: 400;
+    --medium-fw: 500;
+    --bold-fw: 700;
+
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*=============== LARGE SCREEN FONT ===============*/
+@media screen and (min-width: 968px) {
+    :root{
+        --biggest-fs: 4rem;
+        --h1-fs: 2.25rem;
+        --h2-fs: 1.5rem;
+        --h3-fs: 1.25rem;
+        --normal-fs: 1rem;
+        --small-fs: .875rem;
+        --smaller-fs: .813rem;
+    }
+}
+
+/*=============== BASE & Box sizing rules ===============*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-fs);
+    background-color: var(--white-clr);
+    color: var(--black-clr);
+}
+
+h1, h2, h3{
+    font-weight: var(--bold-fw);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+address{
+    font-style: normal;
+}
+
+button,
+input{
+    font-family: var(--body-font);
+    outline: none;
+    border: none;
+}
+
+/*=============== RESUABLE CSS ===============*/
+.container{
+   max-width: 1024px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.section{
+    padding: 4.5rem 0 2rem;
+}
+
+.section-title{
+    text-align: center;
+    font-size: var(--h2-fs);
+    margin-bottom: 1rem;
+}
+
+.section-subtitle{
+    display: block;
+    text-align: center;
+    font-size: var(--normal-fs);
+    font-weight: var(--bold-fw);
+    color: var(--red-clr); 
+}
+
+.main{
+    overflow: hidden;
+}
+
+.grid{
+    display: grid;
+}
+
+/*=============== BUTTONS ===============*/
+
+
+/*=============== CUSTOM SROLL BAR ===============*/
+
+/*=============== SCROLL UP ===============*/
+
+/*=============== HEADER & NAV SECTION ===============*/
+
+/*=============== STICKY HEADER ===============*/
+
+/*=============== HOME SECTION ===============*/
+
+/*=============== ABOUT SECTION ===============*/
+
+/*=============== SERVICE SECTION ===============*/
+
+/*=============== NEWSLETTER SECTION ===============*/
+
+/*=============== CONTACT SECTION ===============*/
+
+/*=============== FOOTER SECTION ===============*/
+
+/*=============== MEDIA QUERIES ===============*/
+/* SMALLER DEVICES */
+@media screen  and (max-width: 320px) {
+
+}
+
+/* MEDIUM DEVICES */
+@media screen  and (min-width: 568px) {
+
+}
+
+/* LARGE DEVICES */
+@media screen  and (min-width: 768px) {
+    
+}
+
+@media screen  and (min-width: 968px) {
+
+}
+
+/* LARGER DEVICES */
+@media screen  and (min-width: 1024px) {
+
+}
+
+@media screen  and (min-width: 1200px) {
+    
+}
+
