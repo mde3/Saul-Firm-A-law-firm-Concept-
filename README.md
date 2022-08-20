@@ -1,9 +1,9 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/mde3/Saul-Firm-A-law-firm-Concept)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/mde3/Saul-Firm-A-law-firm-Concept-)
   [![Twitter Follow](https://img.shields.io/twitter/follow/mabiorduom?style=social)](https://twitter.com/intent/follow?screen_name=mabiorduom)
-  ![GitHub stars](https://img.shields.io/github/stars/mde3/Saul-Firm-A-law-firm-Concept?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/mde3/Saul-Firm-A-law-firm-Concept?style=social)
+  ![GitHub stars](https://img.shields.io/github/stars/mde3/Saul-Firm-A-law-firm-Concept-?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/mde3/Saul-Firm-A-law-firm-Concept-?style=social)
   
   <h2 align="center">Saul-Firm - A Law Firm Website Concept</h2>
 
